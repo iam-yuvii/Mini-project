@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: green; */
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+
+.main{
+    text-align: center;
+    margin-top: 40px;
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover ;
+    
+
+}
+
+span.material-symbols-outlined{
+    font-size: 80px;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+div.facebooK{
+    left: 220px;
+    height: 25px;
+    opacity: 0.5;
+    border-radius: 15px;
+    background-color: #316FF6;
+    padding-top: 5px;
+    color: white;
+    margin: auto;
+    width: 30%;
+}
+
+hr{
+    border: none;
+    border-top: 3px none grey;
+    color: white;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+hr::after {
+    background: black;
+    content: 'OR';
+    opacity: 0.5;
+    padding: 0px 10px;
+    position: relative;
+    top: -13px;
+    size: 10px;
+  }
+
+#username{
+    background-color: black;
+    padding-left: 5px;
+    border-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+}
+
+#password{
+    background-color: black;
+    padding-left: 5px;
+    border-color: black;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    color: white;
+}
+
+.label{
+    font-size: 10px;
+    color: grey;
+}
+
+span.checkbox {
+    position: relative;
+    left: -65px;
+    
+}
+
+input[type="checkbox"] {
+    vertical-align: middle; 
+    position: relative; 
+    bottom: 1px;
+    accent-color: black;
+    background: black;
+    
+    
+  }
+
+.LOGIN{
+    height: 25px;
+    border-radius: 15px;
+    background-color:#050A30;
+    padding-top: 5px;
+    color: white;
+    margin: auto;
+    opacity: 0.5;
+    width: 35%;
+}
+
+#Signup{
+    color: grey;
+    font-size: 7px;
+}
+
+#Signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 7px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: grey;
+}
+
+
+div.facebooK:hover{
+    opacity: 1;
+}
+
+.LOGIN:hover{
+    opacity: 1;
+}
+#Signup a:hover{
+    color: white;
+}
